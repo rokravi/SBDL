@@ -4,7 +4,7 @@
 
 spark.driver.extraJavaOptions -Dlog4j.configuration=file:log4j.properties -Dspark.yarn.app.container.log.dir=app-logs -Dlogfile.name=hello-spark
 
-#Project Architeture:
+#Project Architecture:
 
 Retrieves data from Hive tables, performs necessary transformations, and efficiently writes the processed data to Kafka.
 
